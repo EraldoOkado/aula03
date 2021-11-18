@@ -1,6 +1,6 @@
 ### Ocultar todos os arquivos do tipo .txt
 
-# *.txt
+*.txt
 
 ### Ocultar somente o arquivo dados.txt
 
