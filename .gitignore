@@ -1,7 +1,5 @@
-### Ocultar todos os arquivos do tipo .txt
+#Não quero mais ignorar todos os arquivos .txt
+# *.txt
 
-*.txt
-
-### Ocultar somente o arquivo dados.txt
-
-dados.txt
+#Ignorar o arquivo senha.txt
+senha.txt
