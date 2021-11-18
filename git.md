@@ -94,6 +94,10 @@ Os nomes de arquivos/diretórios ou extensões de arquivos listados no arquivo *
 
 	git rm -r diretorio
 
+##### Reiniciar repositório git
+
+	git rm -rf .git
+
 ### Visualizar histórico
 
 ##### Exibir histórico
