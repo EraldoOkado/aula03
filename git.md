@@ -236,3 +236,7 @@ Mais informações e explicações sobre o [Rebasing](http://git-scm.com/book/en
 ##### Alterando mensagens de commit
 
 	git commit --amend -m "Minha nova mensagem"
+
+##### Alterar branch
+
+	git branch -M nome-da-branch
