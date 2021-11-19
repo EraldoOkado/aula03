@@ -240,3 +240,19 @@ Mais informações e explicações sobre o [Rebasing](http://git-scm.com/book/en
 ##### Alterar branch
 
 	git branch -M nome-da-branch
+	
+##### Voltar uma versão anterior do projeto
+
+	git tag -a "número da versão" -m "Nome da versão"
+	
+###### Listar as versões
+
+	git tag
+	
+##### Mudar para uma versão específica do projeto
+	
+	git checkout v1.0.1 (por exemplo)
+	
+##### Nota: Para realizar o git checkout, você precisa estar sem nenhuma modificação pendente na branch. Caso tenha, você precisa realizar o commit ou usar o comando abaixo
+
+	git stash
